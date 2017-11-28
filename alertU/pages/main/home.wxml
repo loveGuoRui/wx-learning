@@ -1,0 +1,25 @@
+<!--pages/main/home.wxml-->
+ <!-- <view class='white'>待完成任务</view>
+<view class='white' wx:if="{{unDoTaskList}}">
+    还没有要完成的任务~
+</view>
+<view  class='white' wx:for="{{unDoTaskList}}">
+    {{item.content}}
+</view>
+<view class='white'>已完成任务</view>
+<view class='white' wx:if="{{taskList}}">
+    还没有已完成的任务~
+</view>
+<view class='white' wx:for="{{taskList}}">
+    {{item.content}}
+</view> -->
+<view class="head">还不知道叫什么名字的小程序</view>
+<view class="spinner">
+  <view class="dot1"> </view>
+  <view class="dot2"></view>
+</view>
+<view class="myWord">
+  <view class="forCuttie">For My Baby</view>
+  <view class="time">{{time}}</view>
+</view>
+

@@ -1,0 +1,16 @@
+<!--pages/main/newTask/newTask.wxml-->
+<view class="full" bindtouchstart="touchStart" bindtouchend="touchEnd">
+<view class="left-box" animation="{{am_leftbox}}"></view>
+  <view class="content-box"wx:for="{{unDoTaskList}}" wx:if="{{!isLeft}}">
+    <view class="item-box"  >
+          <view class="item-content" id="{{item.showOpt}}" bindlongtap="showOpt" id="{{index}}" data-item="{{item}}"><text>{{item.content}}</text></view>
+          <view class="item-opt"  wx:if="{{item.showOpt}}">
+              <view class="opt-item item-top" >置顶</view>
+              <view class="opt-item item-done">完成</view>
+              <view class="opt-item item-del">删除</view>
+              <view class="opt-item item-cancel" bindtap="cancel" id="{{index}}" data-item="{{item}}">取消</view>
+            </view>
+    </view>
+  </view>
+</view>
+

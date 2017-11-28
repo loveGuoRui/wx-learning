@@ -1,0 +1,15 @@
+{
+  "pages": [
+    "pages/main/home",
+    "pages/logs/logs",
+    "pages/index/index",
+    "pages/main/newTask/newTask",
+    "pages/main/doneTask/doneTask"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "black",
+    "navigationBarTitleText": "WeChat",
+    "navigationBarTextStyle": "white"
+  }
+}

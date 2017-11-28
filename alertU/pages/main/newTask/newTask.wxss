@@ -1,0 +1,51 @@
+/* pages/main/newTask/newTask.wxss */
+.item-box{
+  height: 50px;
+  text-align: center;
+  line-height:50px;
+  position:relative;
+
+}
+.opt-item{
+  float: left;
+  width: 33%
+}
+.item-opt{
+position:absolute;
+top:0;
+display:flex;
+width:95%;
+color: white;
+left:5%
+}
+ .item-top{
+  background: rgb(255, 167, 2);
+}
+ .item-done{
+  background: #67CF22;
+}
+ .item-del{
+  background: rgb(255, 59, 51);
+}
+ .item-cancel{
+  background: rgb(199, 198, 204);
+}
+.full{
+  height:100%;
+  width: 100%;
+   position: fixed;
+}
+.item-content{
+  width: 95%;
+  margin-left: 5%;
+}
+.item-content:active{
+  background: grey;
+  opacity: 0.1
+}
+.left-box{
+  height:100%;
+  float:left;
+  width:5%;
+  background: #67CF22;
+}
